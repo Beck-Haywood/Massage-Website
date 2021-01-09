@@ -15,14 +15,14 @@ app.post('/send', async (req, res, next) => {
         service: 'Gmail',
         port: '465',
         auth: {
-            user: 'haywood.beck13@gmail.com', //replace with the email address
-            pass: 'bghbgh123' //replace with the password
+            user: process.env['sender-user'],
+            pass: process.env['sender-pass'] 
         }
     });
   
     let mailOptions = {
         from: email,
-        to: 'haywoodbeck12@gmail.com',
+        to: process.env['receiver-email'],
         subject: `Message from ${name}`,
         html: `
         <ul>
