@@ -1,6 +1,7 @@
 // var express = require('express');
 // var router = express.Router();
 const nodemailer = require("nodemailer");
+require('dotenv').config()
 module.exports = (app) => {
 
 app.post('/send', async (req, res, next) => {
