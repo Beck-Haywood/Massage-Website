@@ -16,11 +16,12 @@
 #about .col-right h2 {
 	font-size: 1.8rem;
 	font-weight: 500;
-	letter-spacing: .2rem;
+	/* letter-spacing: .2rem; */
 	margin-bottom: 10px;
 }
 #about .col-right p {
 	margin-bottom: 20px;
+	font-size: 1.5rem;
 }
 #about .col-right .cta {
 	color: black;
@@ -41,7 +42,7 @@
 	top: 19px;
 	height: 98%;
 	width: 98%;
-	border: 7px solid crimson;
+	border: 7px solid #4392F1;
 	z-index: -1;
 }
 /* End About Section */

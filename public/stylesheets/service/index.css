@@ -265,7 +265,7 @@ p {
 /* End Hero Section */
 
 /* Services Section */
-#services .services {
+/* #services .services {
 	flex-direction: column;
 	text-align: center;
 	max-width: 1500px;
@@ -323,26 +323,28 @@ p {
 #services .service-item p {
 	color: white;
 	text-align: left;
-}
+} */
 /* End Services Section */
 
 /* Projects section */
-#projects .projects {
+#services .projects {
 	flex-direction: column;
-	max-width: 1200px;
+	max-width: 1400px;
 	margin: 0 auto;
 	padding: 100px 0;
+	min-height: 700px;
 }
-#projects .projects-header h1 {
+#services .projects-header h1 {
 	margin-bottom: 50px;
 }
-#projects .all-projects {
+#services .all-projects {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	height: 700px;
 }
-#projects .project-item {
+#services .project-item {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -352,10 +354,15 @@ p {
 	overflow: hidden;
 	border-radius: 10px;
 }
-#projects .project-info {
-	padding: 30px;
+#services .project-info {
+	padding: 50px 50px 50px 50px;
+	/* padding-top: 100px;
+	padding-left: 50px;
+	padding-right: 50px; */
+	/* padding-bottom: 50px; */
 	flex-basis: 50%;
 	height: 100%;
+
 	display: flex;
 	align-items: flex-start;
 	justify-content: center;
@@ -363,41 +370,42 @@ p {
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 	color: white;
 }
-#projects .project-info h1 {
+#services .project-info h1 {
 	font-size: 4rem;
 	font-weight: 500;
 }
-#projects .project-info h2 {
-	font-size: 1.8rem;
+#services .project-info h2 {
+	font-size: 4rem;
 	font-weight: 500;
 	margin-top: 10px;
 }
-#projects .project-info p {
+#services .project-info p {
 	color: white;
+	font-size: 16px;
 }
-#projects .project-img {
+#services .project-img {
 	flex-basis: 50%;
-	height: 300px;
+	/* height: 800px; */
 	overflow: hidden;
 	position: relative;
 }
-#projects .project-img:after {
+#services .project-img:after {
 	content: '';
 	position: absolute;
 	left: 0;
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	/* background-image: linear-gradient(60deg, #29323c 0%, #485563 100%); */
 	opacity: .7;
 }
-#projects .project-img img {
+#services .project-img img {
 	transition: .3s ease transform;
 }
-#projects .project-item:hover .project-img img {
+#services .project-item:hover .project-img img {
 	transform: scale(1.1);
 }
-/* End Projects section */
+/* End services section */
 
 /* Footer */
 #footer {
@@ -489,29 +497,29 @@ p {
 	/* End Hero */
 
 	/* Services Section */
-	#services .service-bottom .service-item {
+	/* #services .service-bottom .service-item {
 		flex-basis: 45%;
 		margin: 2.5%;
-	}
+	} */
 	/* End Services Section */
 
 	/* Project */
-	#projects .project-item {
+	#services .project-item {
 		flex-direction: row;
 	}
-	#projects .project-item:nth-child(even) {
+	#services .project-item:nth-child(even) {
 		flex-direction: row-reverse;
 	}
-	#projects .project-item {
-		height: 400px;
+	#services .project-item {
+		height: 550px;
 		margin: 0;
 		width: 100%;
 		border-radius: 0;
 	}
-	#projects .all-projects .project-info {
+	#services .all-projects .project-info {
 		height: 100%;
 	}
-	#projects .all-projects .project-img {
+	#services .all-projects .project-img {
 		height: 100%;
 	}
 	/* End Project */
@@ -606,9 +614,9 @@ p {
 	}
 	/* End header */
 
-	#services .service-bottom .service-item {
+	/* #services .service-bottom .service-item {
 		flex-basis: 22%;
 		margin: 1.5%;
-	}
+	} */
 }
 /* End  Media Query For Desktop */
