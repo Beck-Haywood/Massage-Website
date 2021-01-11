@@ -342,7 +342,7 @@ p {
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	height: 1500px;
+	/* height: 1500px; */
 }
 #services .project-item {
 	display: flex;
@@ -580,13 +580,17 @@ p {
 		flex-direction: row-reverse;
 	}
 	#services .project-item {
-		height: 550px;
+		height: 700px; /*550 */
 		margin: 0;
 		width: 100%;
 		border-radius: 0;
 	}
+	#services .all-projects {
+		height: 2000px;
+	}
 	#services .all-projects .project-info {
 		height: 100%;
+
 	}
 	#services .all-projects .project-img {
 		height: 100%;
@@ -677,6 +681,9 @@ p {
 	}
 	#header .nav-list ul li a {
 		font-size: 1.8rem;
+	}
+	#services .all-projects {
+		height: 1500px;
 	}
 	#header .nav-list ul a:after {
 		display: none;
