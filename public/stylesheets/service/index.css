@@ -354,6 +354,17 @@ p {
 	overflow: hidden;
 	border-radius: 10px;
 }
+
+#services ul {
+	font-size: 1.6em;
+}
+#services .head {
+	font-size: 1.6em;
+	text-indent: -20px;
+}
+#services p {
+	margin: 0px;
+}
 #services .project-info {
 	padding: 50px 50px 50px 50px;
 	/* padding-top: 100px;
@@ -384,7 +395,7 @@ p {
 	font-size: 16px;
 }
 #services .project-img {
-	/* flex-basis: 50%; */
+	flex-basis: 50%;
 	/* height: 800px; */
 	overflow: hidden;
 	position: relative;
@@ -398,6 +409,11 @@ p {
 	width: 100%;
 	/* background-image: linear-gradient(60deg, #29323c 0%, #485563 100%); */
 	opacity: .7;
+}
+#services .project-imgs {
+	display: flex;
+	flex-basis: 50%;
+
 }
 #services .project-img img {
 	transition: .3s ease transform;

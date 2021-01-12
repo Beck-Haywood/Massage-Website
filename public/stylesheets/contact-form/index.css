@@ -33,7 +33,7 @@ border-bottom: 3px solid #78788c;}
 
 input:focus{border-bottom: 3px solid #78788c;}
 
-p:before{content:attr(type);display:block;margin:28px 0 0;font-size:22px;color: #4392F1}
+.p:before{content:attr(type);display:block;margin:28px 0 0;font-size:22px;color: #4392F1}
 
 button{
     float: right;

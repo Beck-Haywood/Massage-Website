@@ -2,13 +2,13 @@
 
 <form class="form" method="POST" action="/send">
     <h2>CONTACT ME</h2>
-    <p type="Name:"><input required name="name" placeholder="Write your name here.."></input></p>
-    <p type="Email:"><input required name="email" placeholder="Let me know how to contact you back.."></input></p>
-    <p type="Message:"><input required name="msg" placeholder="What would you like to know?"></input></p>
+    <p class="p"type="Name:"><input required name="name" placeholder="Write your name here.."></input></p>
+    <p class="p"type="Email:"><input required name="email" placeholder="Let me know how to contact you back.."></input></p>
+    <p class="p"type="Message:"><input required name="msg" placeholder="What would you like to know?"></input></p>
     {{#if status}}
-        <p style="color: green;">Message Sent!</p>
+        <p class="p"style="color: green;">Message Sent!</p>
     {{else}}
-        <p style="font-size:18px;color: #4392F1;">Send a message!</p>
+        <p class="p"style="font-size:18px;color: #4392F1;">Send a message!</p>
     {{/if}}
     <button type="submit">Send Message</button>
 </form>
