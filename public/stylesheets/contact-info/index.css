@@ -8,12 +8,13 @@
 	width: 600px;
 }
 #contact .contact-item {
-	width: 80%;
+	width: 100%;
+	/* min-width:calc(1vw - 30px); */
 	padding: 20px;
 	text-align: center;
 	border-radius: 10px;
 	padding: 30px;
-	margin: 30px;
+	margin: 30px 0px 30px 0px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
