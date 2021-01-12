@@ -580,7 +580,7 @@ p {
 		flex-direction: row-reverse;
 	}
 	#services .project-item {
-		height: 700px; /*550 */
+		height: 70%; /*550 */
 		margin: 0;
 		width: 100%;
 		border-radius: 0;
@@ -696,3 +696,20 @@ p {
 	} */
 }
 /* End  Media Query For Desktop */
+/* for all screens */
+.alert {display: none;}
+
+/* only when orientation is in portrait mode */
+@media all and (orientation:portrait) {
+    .alert {
+		 display: block;
+		 background-image: url("/images/flipPhone.png");
+		 height: 100%;
+		 background-position: center;
+		 background-repeat: no-repeat;
+		 background-size: cover;
+		 position:relative;
+		 z-index:1000
+
+    }
+}

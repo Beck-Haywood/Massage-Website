@@ -26,11 +26,8 @@ app.post('/send', async (req, res, next) => {
         to: process.env.RECEIVER_EMAIL,
         subject: `Message from ${name}`,
         html: `
-        <ul>
-            <li>Name: ${name}</li>
-            <li>Email: ${email}</li>
-            <li>Message: ${message}</li>
-        </ul>
+        <p>Email: ${email}</p>
+        <p>Message: ${message}</p>
         `
     }
   
